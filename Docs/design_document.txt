@@ -1,0 +1,144 @@
+== Ludum Dare 38 ==
+
+Theme: A small world
+
+* Small size
+* Isolated place
+* Limited space
+* Inside one of the objects
+	* Vehicle interior
+	* Can't get outside
+	* Can travel between vehicles
+	* Can manipulate vehicle by interacting with the parts
+* Microworld
+* Overcrowded
+* Small scenery
+* Shrinking world
+* Only UI buttons
+
+=== Ideas ===
+
+Idea #1
+	Who / Where:	You're a small character living inside a racing car
+	Goal:			The goal is to get from point A to point B as fast as possible
+	How:			You have competitors living inside other cars
+					You can intrude to other cars as well as they can intrude to yours
+					You can control the car by interacting with its parts (i.e. brakes, acceleration, gears, etc.)
+	Genre:			Racing game
+	View:			2d side or 2d top
+
+Idea #2
+	Who / Where:	You're a small character living on the vinyl
+	Goal:			Survive as long as you can
+	How:			Disc is rotating at a constant speed
+					Sometimes enemies are spawned
+					They can speed up disc rotation
+					The faster disc rotates the bigger acceleration force which takes you to the side
+	Genre:			Shooter
+	View:			3d first person or 3d third person or 2d top or isometric
+
+Idea #3
+	Who / Where:	You're a character living in a shrinking world
+	Goal:			Get to the end before the world completely shrinks
+	How:			Each character step reduces size of the world for a little
+					There're powerups which hold the world from shrinking
+					If you shoot at the end of the world, you can expand it
+					It's like fog of war which you can control by shooting
+					And it constantly shrinking
+	Genre:			Shooter
+	View:			3d fisrt person or 2d top or isometric
+
+Idea #4
+	Who / Where:	You're a character living on the island
+	Goal:			No goal whatsoever, just live couple of days
+	How:			Go for a walk
+					Interact with items
+	Genre:			Interactive experience
+	View:			3d first person
+
+Idea #5
+	Who / Where:	Space railways
+	Goal:			???
+	How:			???
+	Genre:			???
+	View:			2d top down
+
+Idea #6
+	Who / Where:	You're a scientist doing test on molecules
+	Goal:			Solve puzzles using different molecules
+	How:			???
+	Genre:			Puzzle
+	View:			2d top down
+
+Idea #7
+	Who / Where:	You're a fishman catching fish on a spherical world
+	Goal:			
+	How:			
+	Genre:			Interactive experience
+	View:			3d first person
+
+Idea #8
+	Who / Where:	You're a giant with living people on you
+	Goal:			Go from point A to point B without losing too much people
+					Fight with other giant
+	How:			You can float in space
+					People living on your skin can build stuff
+					You can destroy other people by colliding with them
+					People can shoot at each other
+					There's other giant
+					You can collect resources floating in space
+	Genre:			Battle
+	View:			3d third person or 2d side
+
+Idea #9
+	Who / Where:	You're a bacteria floating inside humans body
+	Goal:			Reach brain and avoid hostile cells
+	How:			???
+	Genre:			???
+	View:			2d top or 3d third person
+
+Idea #10
+	Who / Where:	Jump on the clouds
+	Goal:			Stay alive
+	How:			???
+	Genre:			Platformer
+	View:			3d side view or isometric
+
+Idea #11
+	Who / Where:	You're a spherical world trying to shrink
+	Goal:			Shrink to a black hole as fast as you can
+	How:			Click as fast as you can
+	Genre:			Clicker
+	View:			2d side
+
+Idea #12
+	Who / Where:	You're a character living inside floating bubble and helping people
+	Goal:			Help people make their world a better place
+	How:			You can float inside bubble
+					As long as your tail stays inside bubble you're able to travel outside
+					There're resources which help people save the world
+					THe bubble is constantly shrinking
+					By gathering resources you can expand the world
+					
+					OR
+					
+					Keep the world from expanding
+					Keep it small
+	Genre:			Spherical platformer / tactics
+	View:			2d side or 3d third person
+
+=== Concept ===
+
+* Keep the world shrink
+* Live with another people
+* Day / night cycle
+* Water / air bubble
+* Dust / electricity
+
+Gameplay
+
+Story
+
+Sound
+
+Music

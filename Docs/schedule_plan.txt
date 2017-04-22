@@ -1,5 +1,7 @@
 LD 38 SCHEDULE PLAN
 
+Theme: A small world
+
 SAT:
 08:00 - Theme Announcement
 09:00 - . / Breakfast
@@ -12,7 +14,7 @@ SAT:
 14:00 - . / Lunch
 15:00 - .
 
-===== Rough (gameplay, art, sound, music) - 8 hrs
+===== Prototype (gameplay, art, sound, music) - 8 hrs
 16:00 - .
 17:00 - .
 18:00 - .
