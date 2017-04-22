@@ -4,11 +4,11 @@ SAT:
 08:00 - Theme Announcement
 09:00 - . / Breakfast
 
-===== Preparations
+===== Extra preparations - 2 hrs
 10:00 - .
-
-===== Concept (gameplay, art, sound, music) - 5 hrs
 11:00 - .
+
+===== Concept (gameplay, art, sound, music) - 4 hrs
 12:00 - .
 13:00 - .
 14:00 - . / Lunch
