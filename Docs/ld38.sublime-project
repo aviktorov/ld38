@@ -1,0 +1,12 @@
+{
+	"folders":
+	[
+		{
+			"path": "D:\\Development\\Projects\\LD38Game\\Assets",
+			"file_exclude_patterns": ["*.meta"]
+		},
+		{
+			"path": "."
+		}
+	]
+}
