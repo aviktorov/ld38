@@ -1,0 +1,110 @@
+LD 38 SCHEDULE ACTUAL
+
+SAT:
+08:00 - Theme Announcement
+09:00 - . / Breakfast
+
+===== Concept (gameplay, art, sound, music) - 6 hrs
+10:00 - .
+11:00 - .
+12:00 - .
+13:00 - .
+14:00 - . / Lunch
+15:00 - .
+
+===== Rough (gameplay, art, sound, music) - 8 hrs
+16:00 - .
+17:00 - .
+18:00 - .
+19:00 - . / Dinner
+20:00 - .
+21:00 - .
+22:00 - .
+23:00 - . / Playtesting
+
+===== Sleep - 8 hrs
+00:00 - .
+
+SUN:
+01:00 - .
+02:00 - .
+03:00 - .
+04:00 - .
+05:00 - .
+06:00 - .
+07:00 - .
+08:00 - . / Breakfast
+
+===== Beta (gameplay, art, sound, music) -  13 hrs
+09:00 - .
+10:00 - .
+11:00 - .
+12:00 - .
+13:00 - .
+14:00 - . / Lunch
+15:00 - .
+16:00 - .
+17:00 - .
+18:00 - .
+19:00 - . / Dinner
+20:00 - .
+21:00 - . / Playtesting
+
+===== Beta (gameplay, art, sound, music) -  8 hrs
+22:00 - .
+23:00 - .
+00:00 - .
+
+MON:
+01:00 - .
+02:00 - .
+03:00 - . / Snacks
+04:00 - .
+05:00 - .
+06:00 - .
+
+===== Finalization (complete build) - 2 hrs
+07:00 - .
+08:00 - .
+
+===== Compo upload - 1 hr
+09:00 - .
+
+===== Sleep - 8 hrs
+10:00 - .
+11:00 - .
+12:00 - .
+13:00 - .
+14:00 - .
+15:00 - .
+16:00 - .
+17:00 - .
+
+===== Free slot - 4 hrs
+18:00 - .
+19:00 - .
+20:00 - .
+21:00 - .
+
+===== Conf call - 1 hr
+22:00 - .
+
+===== Free slot - 4 hrs
+23:00 - .
+00:00 - .
+
+TUE:
+
+01:00 - .
+02:00 - .
+
+===== Sleep - 6 hrs
+03:00 - .
+04:00 - .
+05:00 - .
+06:00 - .
+07:00 - .
+08:00 - .
+
+===== Jam upload 1 hr
+09:00 - .
