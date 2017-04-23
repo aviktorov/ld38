@@ -4,41 +4,33 @@ using UnityEngine;
 
 public class HeroController : MonoBehaviour {
 	
-	public GameObject world = null;
 	public float movementSpeed = 10.0f;
+	public float jumpSpeed = 1.0f;
+	public Transform targetCamera = null;
 	
-	private WorldController controller;
 	private Rigidbody cachedBody;
 	
 	private void Awake() {
 		cachedBody = GetComponent<Rigidbody>();
 	}
 	
-	private void Start() {
-		controller = (world) ? world.GetComponent<WorldController>() : null;
-	}
-	
 	private void Update() {
-		if(!controller) return;
+		if(!cachedBody) return;
+		if(!targetCamera) return;
 		
-		// direction
-		Vector3 directionVector = transform.position - world.transform.position;
-		directionVector.z = 0.0f;
-		
-		float distance = directionVector.magnitude;
-		directionVector.Normalize();
-		
-		// tangent
-		Vector3 tangentVector = new Vector3(directionVector.y, -directionVector.x, 0.0f);
+		Vector3 cameraRight = targetCamera.right.WithY(0.0f).normalized;
+		Vector3 cameraForward = targetCamera.forward.WithY(0.0f).normalized;
 		
 		// movement
-		float movementImpulse = Input.GetAxis("Horizontal") * movementSpeed;
-		cachedBody.velocity += tangentVector * movementImpulse * Time.deltaTime;
+		Vector3 movement = cameraRight * Input.GetAxis("Horizontal") + cameraForward * Input.GetAxis("Vertical");
+		if(movement.sqrMagnitude > 1.0f) movement.Normalize();
+		movement *= movementSpeed;
 		
-		Vector3 buoyancyForce = directionVector * (controller.GetCurrentRadius() - distance) * 10.0f;
+		movement.y = cachedBody.velocity.y;
+		if(Input.GetButtonDown("Jump")) {
+			movement.y = jumpSpeed;
+		}
 		
-		cachedBody.AddForce(buoyancyForce);
-		
-		transform.rotation = Quaternion.LookRotation(tangentVector, directionVector) * Quaternion.Euler(0,-90,0);
+		cachedBody.velocity = movement;
 	}
 }

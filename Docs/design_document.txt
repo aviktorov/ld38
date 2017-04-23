@@ -19,7 +19,7 @@ Theme: A small world
 === Ideas ===
 
 Idea #1
-	Who / Where:	You're a small character living inside a racing car
+	Who / Where:	You're a small character living inside of a racing car
 	Goal:			The goal is to get from point A to point B as fast as possible
 	How:			You have competitors living inside other cars
 					You can intrude to other cars as well as they can intrude to yours
@@ -129,11 +129,8 @@ Idea #12
 
 === Concept ===
 
-* Keep the world shrink
-* Live with another people
-* Day / night cycle
-* Water / air bubble
-* Dust / electricity
+* Don't let the world shrink
+
 
 Gameplay
 

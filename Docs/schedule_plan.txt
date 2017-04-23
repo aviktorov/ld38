@@ -52,7 +52,7 @@ SUN:
 20:00 - .
 21:00 - . / Playtesting
 
-===== Beta (gameplay, art, sound, music) -  8 hrs
+===== Polish (gameplay, art, sound, music) -  8 hrs
 22:00 - .
 23:00 - .
 00:00 - .

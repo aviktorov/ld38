@@ -6,7 +6,7 @@ SAT:
 08:00 - Theme Announcement
 09:00 - . / Breakfast
 
-===== Extra preparations - 2 hrs
+===== Preparations - 2 hrs
 10:00 - .
 11:00 - .
 
@@ -16,11 +16,11 @@ SAT:
 14:00 - . / Lunch
 15:00 - .
 
-===== Prototype (gameplay, art, sound, music) - 8 hrs
+===== Concept (gameplay, art, sound, music) - 8 hrs
 16:00 - .
 17:00 - .
 18:00 - .
-19:00 - . / Dinner
+19:00 - .
 20:00 - .
 21:00 - .
 22:00 - .
@@ -37,26 +37,28 @@ SUN:
 05:00 - .
 06:00 - .
 07:00 - .
-08:00 - . / Breakfast
+08:00 - .
 
-===== Beta (gameplay, art, sound, music) -  13 hrs
+===== Preparations (gameplay, art, sound, music) - 3 hrs
 09:00 - .
-10:00 - .
+10:00 - . / Breakfast
 11:00 - .
+
+===== Prototype (gameplay, art, sound, music) - 12 hrs
 12:00 - .
 13:00 - .
-14:00 - . / Lunch
+14:00 - .
 15:00 - .
 16:00 - .
 17:00 - .
 18:00 - .
-19:00 - . / Dinner
+19:00 - .
 20:00 - .
 21:00 - . / Playtesting
-
-===== Beta (gameplay, art, sound, music) -  8 hrs
 22:00 - .
 23:00 - .
+
+===== Beta (gameplay, art, sound, music) - 6 hrs
 00:00 - .
 
 MON:
@@ -67,7 +69,7 @@ MON:
 05:00 - .
 06:00 - .
 
-===== Finalization (complete build) - 2 hrs
+===== Polish (complete build) - 2 hrs
 07:00 - .
 08:00 - .
 
