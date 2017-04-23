@@ -59,31 +59,32 @@ SUN:
 ===== Rest - 1 hr
 22:00 - .
 
-===== Prototype (gameplay, art, sound, music) - 2 hrs
+===== Prototype (gameplay, art, sound, music) - 3 hrs
 23:00 - .
 00:00 - .
 
 MON:
 
-===== Beta (gameplay, art, sound, music) - 5 hrs
 01:00 - .
+
+===== Rest - 1 hr
 02:00 - .
-03:00 - . / Snacks
+
+===== Prototype (gameplay, art, sound, music) - 3 hrs
+03:00 - .
 04:00 - .
-05:00 - .
-06:00 - .
-
-===== Polish (complete build) - 2 hrs
-07:00 - .
-08:00 - .
-
-===== Compo upload - 1 hr
-09:00 - .
+05:00 - . / Upload
 
 ===== Sleep - 8 hrs
+06:00 - .
+07:00 - .
+08:00 - .
+09:00 - .
 10:00 - .
 11:00 - .
 12:00 - .
+
+===== Free slot - 5 hrs
 13:00 - .
 14:00 - .
 15:00 - .
