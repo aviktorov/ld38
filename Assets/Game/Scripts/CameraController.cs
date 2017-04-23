@@ -20,7 +20,7 @@ public class CameraController : MonoBehaviour {
 		if(desiredDirection.sqrMagnitude < Mathf.Epsilon) return;
 		
 		Vector3 desiredPosition = target.position - desiredDirection.WithY(0.0f).normalized * distance;
-		desiredPosition.y += heightOffset;
+		desiredPosition.y += Mathf.Lerp(target.position.y + heightOffset, center.position.y, 0.5f);
 		
 		float linearDampingClamped = Mathf.Clamp01(linearDamping * Time.deltaTime);
 		float angularDampingClamped = Mathf.Clamp01(angularDamping * Time.deltaTime);
