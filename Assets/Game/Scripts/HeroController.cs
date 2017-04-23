@@ -9,9 +9,12 @@ public class HeroController : MonoBehaviour {
 	public Transform targetCamera = null;
 	
 	private Rigidbody cachedBody;
+	private bool biting;
+	private FixedJoint cachedJoint;
 	
 	private void Awake() {
 		cachedBody = GetComponent<Rigidbody>();
+		biting = false;
 	}
 	
 	private void Update() {
@@ -31,6 +34,25 @@ public class HeroController : MonoBehaviour {
 			movement.y = jumpSpeed;
 		}
 		
+		biting = Input.GetButton("Bite");
+		if(cachedJoint && !biting) {
+			GameObject.Destroy(cachedJoint);
+			cachedJoint = null;
+		}
+		
 		cachedBody.velocity = movement;
+		if(movement.WithY(0.0f).sqrMagnitude > Mathf.Epsilon) {
+			transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(-movement), 5.0f * Time.deltaTime);
+		}
+	}
+	
+	private void OnTriggerEnter(Collider collider) {
+		if(cachedJoint || !biting) return;
+		
+		if(collider == null) return;
+		if(collider.GetComponent<Rigidbody>() == null) return;
+		
+		cachedJoint = gameObject.AddComponent<FixedJoint>();
+		cachedJoint.connectedBody = collider.GetComponent<Rigidbody>();
 	}
 }

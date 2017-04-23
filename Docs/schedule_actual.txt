@@ -55,13 +55,17 @@ SUN:
 19:00 - .
 20:00 - .
 21:00 - . / Playtesting
-22:00 - .
-23:00 - .
 
-===== Beta (gameplay, art, sound, music) - 6 hrs
+===== Rest - 1 hr
+22:00 - .
+
+===== Prototype (gameplay, art, sound, music) - 2 hrs
+23:00 - .
 00:00 - .
 
 MON:
+
+===== Beta (gameplay, art, sound, music) - 5 hrs
 01:00 - .
 02:00 - .
 03:00 - . / Snacks
